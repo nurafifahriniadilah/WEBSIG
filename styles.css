@@ -143,3 +143,28 @@ article h3 {
     text-decoration: none;
     color: #000000; /* Set desired hover color for the link */
 }
+
+@media (max-width: 768px) {
+    .header-content {
+        flex-direction: column;
+    }
+    .logo {
+        margin-bottom: 10px;
+    }
+    header h1 {
+        font-size: 1.25rem;
+        text-align: center;
+    }
+    .map {
+        height: 300px;
+    }
+}
+
+@media (max-width: 480px) {
+    nav ul {
+        flex-direction: column;
+    }
+    nav ul li {
+        margin: 5px 0;
+    }
+}
