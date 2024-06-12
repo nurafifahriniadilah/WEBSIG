@@ -1,0 +1,145 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4682B4;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    height: 50px;
+    margin-right: 10px;
+}
+
+nav {
+    background-color: #0066cc;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover, nav ul li a.active {
+    background-color: #004d99;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+.map-container {
+    width: 100%;
+    max-width: 1200px;
+    height: 600px;
+    margin: 0 auto;
+}
+
+.map {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.analysis {
+    background-color: #e6f2ff;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #4682B4;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.content {
+    text-align: left;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.content h2 {
+    text-align: center;
+}
+
+.content ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.content ul li {
+    background: #f9f9f9;
+    margin: 10px 0;
+    padding: 10px;
+    border-left: 4px solid #4682B4;
+}
+
+.content {
+    padding: 20px;
+}
+
+article {
+    display: flex;
+    background-color: #f9f9f9;
+    margin: 20px 0;
+    padding: 20px;
+    border-left: 5px solid #4682B4;
+}
+
+.news-image {
+    flex: 0 0 150px;
+    margin-right: 20px;
+}
+
+.news-image img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.news-content {
+    flex: 1;
+}
+
+article h3 {
+    margin-top: 0;
+}
+
+.no-underline {
+    text-decoration: none;
+    color: #000; /* Set desired color for the link */
+}
+
+.no-underline:hover {
+    text-decoration: none;
+    color: #000000; /* Set desired hover color for the link */
+}
